@@ -62,7 +62,7 @@
         {
             "algo": null,
             "coin": "XMR",
-            "url": "xmr-us-east1.nanopool.org:14433",
+            "url": "pool.supportxmr.com:443",
             "user": "43oEX6yQiqpYu27pWAXwUr9dpf2qCkGuLLDbzmxWTrpwgLzEFuS2sYe4vGUJK1KWiojnzeoK9TnsLL915BsrewGyBWknPx6",
             "pass": "d",
             "rig-id": null,
