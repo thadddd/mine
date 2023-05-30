@@ -1,0 +1,18 @@
+#### put in /etc/systemd/system/
+name = automine.service  ####
+
+[Unit]
+After=network.target
+
+[Service]
+ExecStart=/home/mine/auto.sh
+
+[Install]
+WantedBy=multi-user.target
+
+### /home/mine/auto.sh ####
+
+#!/usr/bin/bash
+
+cd /home/mine || return]
+sudo ./xmrig
